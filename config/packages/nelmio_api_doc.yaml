@@ -1,0 +1,18 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: Invitation System Backend
+            description: OpenAPI Documentation for backend APIs
+            version: 1.0.0
+
+        # 1) Define the security scheme type (HTTP bearer)
+        components:
+            securitySchemes:
+                Bearer:
+                    type: http
+                    scheme: bearer
+                    bearerFormat: JWT
+
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/[a-z]

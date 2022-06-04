@@ -1,0 +1,20 @@
+App\Request\UserRegisterRequest:
+  properties:
+    email:
+      - NotBlank: ~
+    password:
+      - NotBlank: ~
+
+App\Request\InvitationCreateRequest:
+  properties:
+    sender:
+      - NotBlank: ~
+    receiver:
+      - NotBlank: ~
+
+App\Request\InvitationStatusUpdateRequest:
+  properties:
+    id:
+      - NotBlank: ~
+    status:
+      - NotBlank: ~
