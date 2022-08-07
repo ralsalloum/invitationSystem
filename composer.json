@@ -8,6 +8,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/mongodb-odm-bundle": "*",
         "doctrine/orm": "^2.12",
         "gedmo/doctrine-extensions": "^3.7",
         "lexik/jwt-authentication-bundle": "^2.15",
